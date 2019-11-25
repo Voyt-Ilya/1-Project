@@ -15,9 +15,12 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            label1.Text = "Kyky Epta";
-            label1.Height = 400;
-            label1.Width = 400;
+          
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("He;;o my a partner!");
         }
     }
 }
