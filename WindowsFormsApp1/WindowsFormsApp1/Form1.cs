@@ -15,7 +15,14 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            label1.Text = "Kyky Epta";
           
+          
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Yopta");
         }
 
         private void button1_Click(object sender, EventArgs e)
